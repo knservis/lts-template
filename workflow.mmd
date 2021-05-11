@@ -1,4 +1,4 @@
 graph TD;
-A(Sync data from LTS)--> B(Convert sky to pixel coordinates);
+A(Sync data from managed storage)--> B(Convert sky to pixel coordinates);
 B --> C(Crop poststamp);
-C --> D(Sync back to LTS);
+C --> D(Sync back to managed storage);
